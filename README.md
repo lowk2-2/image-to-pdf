@@ -18,6 +18,7 @@ This is a simple one-click solution for converting images to PDF.
    ```bash
    python converter.py
    ```
+   or just click the run.bat (for windows users)
 3. Check the `output/` folder for results.
 
 No command-line arguments are needed!
