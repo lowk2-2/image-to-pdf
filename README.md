@@ -1,55 +1,39 @@
 # Image to PDF Converter
 
-## Overview
-This project provides a simple tool for converting images to PDF format.
+This is a simple one-click solution for converting images to PDF.
 
 ## Features
-- Supports multiple image formats (JPEG, PNG, BMP, etc.)
-- Batch image processing
-- Customizable output PDF settings
+- One-click usage
+- Easy file input
+- Automatically generate PDF output
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/lowk2-2/image-to-pdf.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd image-to-pdf
-   ```
-3. Install the required dependencies:
-   ```bash
-   npm install
-   ```
+1. Clone the repository.
+2. Ensure you have Python installed.
+3. Install any necessary dependencies if specified.
 
-## Usage
-To convert images to PDF, use the following command:
-```bash
-node converter.js input-image-path output-pdf-path
-```
-- `input-image-path`: Path to the image file or directory containing images.
-- `output-pdf-path`: Path where the output PDF will be saved.
+## How to Use
+1. Drop files in the `input/` folder.
+2. Run the following command:  
+   ```bash
+   python converter.py
+   ```
+3. Check the `output/` folder for results.
+
+No command-line arguments are needed!
 
 ## Examples
-### Convert a Single Image
-```bash
-node converter.js image.jpg output.pdf
-```
-### Convert Multiple Images
-```bash
-node converter.js images/ output.pdf
-```
+- Drop `.jpg`, `.png`, or `.gif` files in the `input/` folder.
+- Run the converter and find your PDFs in the `output/` folder.
 
-## Contributing
-If you want to contribute to this project, please follow these steps:
-- Fork the repository.
-- Create a new branch: `git checkout -b feature/YourFeature`
-- Commit your changes: `git commit -m 'Add new feature'`
-- Push to the branch: `git push origin feature/YourFeature`
-- Open a pull request.
+## Project Structure
+- `input/`: Folder where input images should be placed.
+- `output/`: Folder where output PDFs will be saved.
+- `converter.py`: Main script for conversion.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Troubleshooting
+- Ensure all images are supported formats.
+- Check Python installation and dependencies if the script fails to run.
 
-## Contact
-For any questions or feedback, open an issue or contact me.
+## Notes
+- This tool is designed for ease of use and intended for quick conversions.
